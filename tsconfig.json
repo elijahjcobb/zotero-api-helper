@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"sourceMap": true,
+		"noEmitOnError": false,
+		"moduleResolution": "node",
+		"outDir": "js",
+		"declarationDir": "dts",
+		"declaration": true,
+		"strict": false,
+		"allowSyntheticDefaultImports": true
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"include": [
+		"ts"
+	]
+}
