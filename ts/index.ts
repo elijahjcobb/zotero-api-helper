@@ -130,4 +130,4 @@ app.get("/collections/:id/bib", async (req, res) => {
 	res.send(await fetchBibInCollection(req.params.id));
 });
 
-app.listen(3000, () => console.log("API live."));
+app.listen(9487, () => console.log("API live."));
