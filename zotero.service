@@ -1,0 +1,13 @@
+[Unit]
+Description=The backend for zotero.
+After=network.target
+
+[Service]
+type=simple
+User=root
+WorkingDirectory=/srv/zotero.elijahcobb.com
+ExecStart=/usr/bin/node js/index.js
+
+[Install]
+WantedBy=multi-user.target
+Alias=zotero
